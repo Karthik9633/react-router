@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center h-[80vh] text-center">
       <h2 className="text-4xl font-bold text-indigo-600 mb-4">
-        Welcome to Multi-Page React App 🚀
+        Welcome to React Router Website
       </h2>
       <p className="text-gray-600 mb-6">
         This application demonstrates routing and dynamic pages using React Router.

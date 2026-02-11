@@ -3,25 +3,25 @@ import { users } from "../data/users";
 
 const Users = () => {
   return (
-    <div className="max-w-5xl mx-auto mt-12">
-      <h2 className="text-3xl font-bold text-indigo-600 mb-6 text-center">
-        Users List
-      </h2>
+    <div className="px-8 py-12">
+      <h2 className="text-3xl font-bold mb-8">User Profiles</h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-4 gap-6">
         {users.map((user) => (
           <div
             key={user.id}
-            className="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition transform"
+            className="bg-gray-900 p-6 rounded-lg hover:scale-105 hover:bg-gray-800 transition duration-300"
           >
-            <h3 className="text-xl font-semibold">{user.name}</h3>
-            <p className="text-gray-500 mb-4">{user.email}</p>
+            <h3 className="text-xl font-semibold mb-2">
+              {user.name}
+            </h3>
+            <p className="text-gray-400 mb-4">{user.email}</p>
 
             <Link
               to={`/users/${user.id}`}
-              className="text-indigo-600 font-medium hover:underline"
+              className="text-red-600 hover:underline"
             >
-              View Details →
+              View Profile →
             </Link>
           </div>
         ))}

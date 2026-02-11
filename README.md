@@ -1,4 +1,6 @@
-# 🎬 Multi-Page React Application with Routing (Netflix Theme)
+# React Application with Routing
+
+Live Demo - https://karthik9633.github.io/react-router/
 
 A modern multi-page React application built using **React Router** and styled with **Tailwind CSS**.  
 This project demonstrates client-side routing, parameterized routes, responsive design, and clean component architecture with a Netflix-inspired dark UI.

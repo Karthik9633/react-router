@@ -31,7 +31,11 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{
+  basename: "/react-router"
+}
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
